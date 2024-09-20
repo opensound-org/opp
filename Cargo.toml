@@ -10,7 +10,7 @@ repository = "https://github.com/opensound-org/opp"
 homepage = "https://github.com/opensound-org/opp"
 documentation = "https://docs.rs/opp"
 description = """
-OpenPlugin Protocol.
+🚧 OpenPlugin Protocol (WIP, nothing usable for now).
 """
 edition = "2021"
 # rust-version = "1.76.0"

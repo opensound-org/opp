@@ -4,7 +4,7 @@
 
 [English](README.md) | 简体中文
 
-开放插件协议（OpenPlugin Protocol）
+（WIP）开放插件协议（OpenPlugin Protocol）🚧
 
 官网 | [crates.io](https://crates.io/crates/opp) | [docs.rs](https://docs.rs/opp/latest/opp)
 

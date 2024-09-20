@@ -4,7 +4,7 @@
 
 English | [简体中文](README-CN.md)
 
-OpenPlugin Protocol
+(WIP) OpenPlugin Protocol 🚧
 
 Website | [crates.io](https://crates.io/crates/opp) | [docs.rs](https://docs.rs/opp/latest/opp)
 

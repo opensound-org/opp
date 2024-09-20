@@ -1,0 +1,20 @@
+[package]
+name = "opp"
+authors = ["29 <791603901@qq.com>"]
+version = "0.0.1"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["http", "ipc", "gateway", "gadget", "tokio"]
+categories = ["asynchronous", "authentication", "network-programming", "web-programming", "web-programming::websocket"]
+repository = "https://github.com/opensound-org/opp"
+homepage = "https://github.com/opensound-org/opp"
+documentation = "https://docs.rs/opp"
+description = """
+OpenPlugin Protocol.
+"""
+edition = "2021"
+# rust-version = "1.76.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

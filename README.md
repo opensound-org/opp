@@ -50,7 +50,11 @@ at your option.
 
 [Github](https://github.com/opensound-org/opp) is our [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth), where we welcome all issues and pull requests.
 
-We also have two downstream read-only mirrors that are [automatically pushed](.github/workflows/mirror.yml): [GitLab](https://gitlab.com/opensound-org/opp) and [Gitee](https://gitee.com/opensound-org/opp). As they are read-only mirrors, please do not initiate any merge or pull requests on these two platforms.
+We also have two downstream read-only mirrors that are [automatically pushed](.github/workflows/mirror.yml):
+- [GitLab](https://gitlab.com/opensound-org/opp)
+- [Gitee](https://gitee.com/opensound-org/opp)
+
+As they are read-only mirrors, please do not initiate any merge or pull requests on these two platforms.
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in `opp` by you, as defined in the Apache-2.0 license, shall be

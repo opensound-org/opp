@@ -13,7 +13,10 @@ description = """
 🚧 OpenPlugin Protocol (WIP, nothing usable for now).
 """
 edition = "2021"
-# rust-version = "1.76.0"
+
+# Because the highest MSRV `tokio` is 1.70.0
+# 因为MSRV最高的`tokio`是1.70.0
+rust-version = "1.70.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

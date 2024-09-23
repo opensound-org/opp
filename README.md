@@ -10,14 +10,14 @@ Website | [crates.io](https://crates.io/crates/opp) | [docs.rs](https://docs.rs/
 
 Original Author: [@czy-29](https://github.com/czy-29)
 
-Latest version: [v0.0.3](https://github.com/opensound-org/opp/releases/tag/v0.0.3)
+Latest version: [v0.0.4](https://github.com/opensound-org/opp/releases/tag/v0.0.4)
 
 ![Crates.io Total Downloads](https://img.shields.io/crates/d/opp)
 [![Crates.io Dependents](https://img.shields.io/crates/dependents/opp)](https://crates.io/crates/opp/reverse_dependencies)
 ![GitHub Repo stars](https://img.shields.io/github/stars/opensound-org/opp)
 
-![MSRV (version)](https://img.shields.io/crates/msrv/opp/0.0.3?label=v0.0.3-msrv)
-[![dependency status (version)](https://deps.rs/crate/opp/0.0.3/status.svg?subject=v0.0.3-deps)](https://deps.rs/crate/opp/0.0.3)
+![MSRV (version)](https://img.shields.io/crates/msrv/opp/0.0.4?label=v0.0.4-msrv)
+[![dependency status (version)](https://deps.rs/crate/opp/0.0.4/status.svg?subject=v0.0.4-deps)](https://deps.rs/crate/opp/0.0.4)
 
 ![MSRV (git)](https://img.shields.io/badge/git--msrv-unknown-blue)
 [![dependency status (git)](https://deps.rs/repo/github/opensound-org/opp/status.svg?subject=git-deps)](https://deps.rs/repo/github/opensound-org/opp)

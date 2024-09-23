@@ -18,3 +18,49 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# ast deps
+anyhow = "1.0.89"
+
+# Universal dependencies
+# 通用依赖
+tokio = { version = "1.40.0", features = [] }
+
+# Universal optional dependencies
+# 通用可选依赖
+tracing = { version = "0.1.40", optional = true }
+
+# Kernel dependencies
+# 内核依赖
+http-body-util = { version = "0.1.2", optional = true }
+hyper = { version = "1.4.1", optional = true }
+hyper-util = { version = "0.1.8", features = ["tokio", "server-auto", "server-graceful"], optional = true }
+
+# Gadget dependencies
+# Gadget依赖
+
+# All dependencies required for each demo Gadgets and Kernel binary
+# 各演示Gadget及Kernel二进制需要的所有依赖项
+tracing-subscriber = { version = "0.3.18", features = ["chrono"], optional = true }
+
+[target.'cfg(windows)'.dependencies]
+# https://github.com/tokio-rs/tracing/issues/3068
+nu-ansi-term = { version = "0.50.1", optional = true }
+
+[features]
+tracing = ["dep:tracing"]
+kernel = ["tokio/net", "dep:http-body-util", "dep:hyper", "dep:hyper-util"]
+
+# The feature set required for all binaries
+# 所有二进制都需要的特性集合
+bin = ["tracing", "tokio/rt-multi-thread", "tokio/macros", "dep:tracing-subscriber", "dep:nu-ansi-term"]
+
+# Feature that needs to be enabled for binary `opk` (OpenPlugin Kernel)
+# 二进制`opk`（OpenPlugin Kernel）需要启用的特性
+opk = ["kernel", "bin"]
+
+default = ["opk"]
+
+[[bin]]
+name = "opk"
+path = "src/main.rs"
+required-features = ["opk"]

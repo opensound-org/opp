@@ -19,7 +19,7 @@ Latest version: [v0.0.5](https://github.com/opensound-org/opp/releases/tag/v0.0.
 ![MSRV (version)](https://img.shields.io/crates/msrv/opp/0.0.5?label=v0.0.5-msrv)
 [![dependency status (version)](https://deps.rs/crate/opp/0.0.5/status.svg?subject=v0.0.5-deps)](https://deps.rs/crate/opp/0.0.5)
 
-![MSRV (git)](https://img.shields.io/badge/git--msrv-unknown-blue)
+![MSRV (git)](https://img.shields.io/badge/git--msrv-1.80.0-blue)
 [![dependency status (git)](https://deps.rs/repo/github/opensound-org/opp/status.svg?subject=git-deps)](https://deps.rs/repo/github/opensound-org/opp)
 
 [![Static Badge](https://img.shields.io/badge/build_with-Rust_1.81.0-dca282)](https://blog.rust-lang.org/2024/09/05/Rust-1.81.0.html)

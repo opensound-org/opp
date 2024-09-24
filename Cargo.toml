@@ -14,9 +14,10 @@ description = """
 """
 edition = "2021"
 
-# Because the highest MSRV `tokio` is 1.70.0
-# 因为MSRV最高的`tokio`是1.70.0
-rust-version = "1.70.0"
+# Because we used `rustc-check-cfg` in build script
+# 因为我们在构建脚本中使用了`rustc-check-cfg`
+# https://blog.rust-lang.org/2024/05/06/check-cfg.html
+rust-version = "1.80.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -43,11 +44,11 @@ hyper-util = { version = "0.1.8", features = ["tokio", "server-auto", "server-gr
 
 # All dependencies required for each demo Gadgets and Kernel binary
 # 各演示Gadget及Kernel二进制需要的所有依赖项
+nu-ansi-term = { version = "0.50.1", optional = true }
 tracing-subscriber = { version = "0.3.18", features = ["chrono"], optional = true }
 
-[target.'cfg(windows)'.dependencies]
-# https://github.com/tokio-rs/tracing/issues/3068
-nu-ansi-term = { version = "0.50.1", optional = true }
+[build-dependencies]
+version_check = "0.9.5"
 
 [features]
 tracing = ["dep:tracing"]
@@ -55,7 +56,7 @@ kernel = ["tokio/net", "dep:http-body-util", "dep:hyper", "dep:hyper-util"]
 
 # The feature set required for all binaries
 # 所有二进制都需要的特性集合
-bin = ["tracing", "tokio/rt-multi-thread", "tokio/macros", "dep:tracing-subscriber", "dep:nu-ansi-term"]
+bin = ["tracing", "tokio/rt-multi-thread", "tokio/macros", "dep:nu-ansi-term", "dep:tracing-subscriber"]
 
 # Feature that needs to be enabled for binary `opk` (OpenPlugin Kernel)
 # 二进制`opk`（OpenPlugin Kernel）需要启用的特性

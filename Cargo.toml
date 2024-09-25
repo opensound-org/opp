@@ -21,6 +21,9 @@ rust-version = "1.80.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[package.metadata.docs.rs]
+all-features = true
+
 [dependencies]
 # ast deps
 anyhow = "1.0.89"

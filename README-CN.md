@@ -10,14 +10,14 @@
 
 原始作者：[@czy-29](https://github.com/czy-29)
 
-最新版本：[v0.0.6](https://github.com/opensound-org/opp/releases/tag/v0.0.6)
+最新版本：[v0.0.7](https://github.com/opensound-org/opp/releases/tag/v0.0.7)
 
 ![Crates.io Total Downloads](https://img.shields.io/crates/d/opp)
 [![Crates.io Dependents](https://img.shields.io/crates/dependents/opp)](https://crates.io/crates/opp/reverse_dependencies)
 ![GitHub Repo stars](https://img.shields.io/github/stars/opensound-org/opp)
 
-![MSRV (version)](https://img.shields.io/crates/msrv/opp/0.0.6?label=v0.0.6-msrv)
-[![dependency status (version)](https://deps.rs/crate/opp/0.0.6/status.svg?subject=v0.0.6-deps)](https://deps.rs/crate/opp/0.0.6)
+![MSRV (version)](https://img.shields.io/crates/msrv/opp/0.0.7?label=v0.0.7-msrv)
+[![dependency status (version)](https://deps.rs/crate/opp/0.0.7/status.svg?subject=v0.0.7-deps)](https://deps.rs/crate/opp/0.0.7)
 
 ![MSRV (git)](https://img.shields.io/badge/git--msrv-1.80.0-blue)
 [![dependency status (git)](https://deps.rs/repo/github/opensound-org/opp/status.svg?subject=git-deps)](https://deps.rs/repo/github/opensound-org/opp)

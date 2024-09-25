@@ -37,7 +37,7 @@ tracing = { version = "0.1.40", optional = true }
 # 内核依赖
 http-body-util = { version = "0.1.2", optional = true }
 hyper = { version = "1.4.1", optional = true }
-hyper-util = { version = "0.1.8", features = ["tokio", "server-auto", "server-graceful"], optional = true }
+hyper-util = { version = "0.1.9", features = ["tokio", "server-auto", "server-graceful"], optional = true }
 
 # Gadget dependencies
 # Gadget依赖

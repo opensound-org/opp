@@ -62,8 +62,6 @@ bin = ["tracing", "tokio/rt-multi-thread", "tokio/macros", "dep:nu-ansi-term", "
 # 二进制`opk`（OpenPlugin Kernel）需要启用的特性
 opk = ["kernel", "bin"]
 
-default = ["opk"]
-
 [[bin]]
 name = "opk"
 path = "src/main.rs"

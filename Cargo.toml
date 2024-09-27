@@ -57,7 +57,7 @@ version_check = "0.9.5"
 kernel = ["tokio/net", "dep:http-body-util", "dep:hyper", "dep:hyper-util"]
 
 tracing = ["dep:tracing"]
-tracing-subscriber = ["dep:tracing-subscriber"]
+tracing-layer = ["dep:tracing-subscriber"]
 
 # The feature set required for all binaries
 # 所有二进制都需要的特性集合

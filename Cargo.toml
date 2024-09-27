@@ -55,17 +55,23 @@ version_check = "0.9.5"
 
 [features]
 kernel = ["tokio/net", "dep:http-body-util", "dep:hyper", "dep:hyper-util"]
+gadget = []
 
 tracing = ["dep:tracing"]
+tracing-server = []
 tracing-layer = ["dep:tracing-subscriber"]
 
 # The feature set required for all binaries
 # 所有二进制都需要的特性集合
 bin = ["tracing", "tokio/rt-multi-thread", "tokio/macros"]
 
+# The set of features required for all binary `Gadgets`
+# 所有`Gadgets`二进制都需要的特性集合
+opg = ["gadget", "tracing-layer", "bin"]
+
 # Feature that needs to be enabled for binary `opk` (OpenPlugin Kernel)
 # 二进制`opk`（OpenPlugin Kernel）需要启用的特性
-opk = ["kernel", "tracing-subscriber/chrono", "dep:nu-ansi-term", "bin"]
+opk = ["kernel", "tracing-server", "tracing-subscriber/chrono", "dep:nu-ansi-term", "bin"]
 
 [[bin]]
 name = "opk"

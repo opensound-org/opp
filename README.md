@@ -35,6 +35,10 @@ Latest version: [v0.0.7](https://github.com/opensound-org/opp/releases/tag/v0.0.
 ## How
 🚧 (Under construction...)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=opensound-org/opp&type=Date)](https://star-history.com/#opensound-org/opp&Date)
+
 # License
 
 This project is licensed under either of

@@ -35,6 +35,10 @@
 ## 怎么用
 🚧（构建中……）
 
+## Star历史
+
+[![Star History Chart](https://api.star-history.com/svg?repos=opensound-org/opp&type=Date)](https://star-history.com/#opensound-org/opp&Date)
+
 # 许可证
 
 本项目使用以下两种许可之一
